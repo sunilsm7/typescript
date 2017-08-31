@@ -4,14 +4,16 @@
   "description": "learn Typescript setup and webpack",
   "main": "webpack.config.js",
   "dependencies": {
+    "jquery": "^3.2.1",
     "ts-loader": "^2.3.4",
     "typescript": "^2.4.2",
+    "typings": "^2.1.1",
     "webpack": "^3.5.5"
   },
   "devDependencies": {},
   "scripts": {
-    "main":"webpack --watch --optimize-minimize",
-    "server":"http-server -c-1",
+    "main": "webpack --watch --optimize-minimize",
+    "server": "http-server -c-1",
     "test": "webpack --watch --optimize-minimize"
   },
   "repository": {
