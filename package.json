@@ -1,0 +1,35 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "learn Typescript setup and webpack",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "main":"webpack --watch --optimize-minimize",
+    "server":"http-server -c-1",
+    "test": "webpack --watch --optimize-minimize"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilsm7/typescript.git"
+  },
+  "keywords": [
+    "learn",
+    "typescript",
+    "learn",
+    "webpack",
+    "npm",
+    "tutorial"
+  ],
+  "author": "sunil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunilsm7/typescript/issues"
+  },
+  "homepage": "https://github.com/sunilsm7/typescript#readme"
+}
